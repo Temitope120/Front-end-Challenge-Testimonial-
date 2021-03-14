@@ -1,0 +1,88 @@
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+  background-color: aliceblue;
+  width: 1440px;
+  height: 900px;
+}
+.container {
+  margin-top: 30px;
+  border: solid 5px antiquewhite;
+  height: 100vh;
+  /* border: 3px solid red !important; */
+}
+.grid-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid {
+  max-height: 120px;
+  margin-bottom: 200px;
+}
+.flex {
+  display: flex;
+  padding-right: 20px;
+}
+.flex img {
+  margin-left: 20px;
+
+  padding-right: 10px;
+}
+p {
+  clear: both;
+  margin-bottom: 0;
+  color: white;
+}
+.dark-text {
+  color: black;
+}
+.white-div {
+  background-color: white;
+}
+.white-text {
+  color: antiquewhite;
+}
+.text {
+  color: rgb(164, 169, 173);
+}
+h6 {
+  color: white;
+}
+.ver-graduate {
+  float: left;
+  margin-top: 0;
+  padding-left: 2px;
+}
+
+.daniel {
+  background-color: blueviolet;
+  border: black solid transparent;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+  max-height: 70%;
+}
+.jonathan {
+  background-color: #0e0620b0;
+  border: black solid transparent;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+  max-height: 70%;
+}
+.jeanette {
+  background-color: white;
+  border: black solid transparent;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+  max-height: 100%;
+}
+.patrick {
+  background-color: #0e0620b0;
+  border: black solid transparent;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+  max-height: 100%;
+}
